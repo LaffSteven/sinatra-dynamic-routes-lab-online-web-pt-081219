@@ -18,6 +18,6 @@ class App < Sinatra::Base
     "#{phrase}" * number
   end
   
-  
+  get '/say'
   
 end
